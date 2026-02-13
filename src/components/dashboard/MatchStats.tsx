@@ -75,7 +75,7 @@ export function MatchStats() {
                             <div className="space-y-2">
                                 {/* Boca */}
                                 <div className="flex items-center gap-2 sm:gap-3">
-                                    <span className="text-xs sm:text-sm font-semibold text-primary min-w-[80px] sm:min-w-[100px]">
+                                    <span className="text-xs sm:text-sm font-semibold text-primary min-w-20 sm:min-w-25">
                                         Boca Juniors
                                     </span>
                                     <div className="flex-1">
@@ -84,14 +84,14 @@ export function MatchStats() {
                                             className="h-2 sm:h-3"
                                         />
                                     </div>
-                                    <span className="text-sm sm:text-base font-bold text-primary min-w-[30px] text-right">
+                                    <span className="text-sm sm:text-base font-bold text-primary min-w-7.5 text-right">
                                         {stat.boca}
                                     </span>
                                 </div>
 
                                 {/* Adversário */}
                                 <div className="flex items-center gap-2 sm:gap-3">
-                                    <span className="text-xs sm:text-sm font-semibold text-muted-foreground min-w-[80px] sm:min-w-[100px]">
+                                    <span className="text-xs sm:text-sm font-semibold text-muted-foreground min-w-20 sm:min-w-25">
                                         River Plate
                                     </span>
                                     <div className="flex-1">
@@ -100,7 +100,7 @@ export function MatchStats() {
                                             className="h-2 sm:h-3 [&>div]:bg-muted-foreground"
                                         />
                                     </div>
-                                    <span className="text-sm sm:text-base font-bold text-muted-foreground min-w-[30px] text-right">
+                                    <span className="text-sm sm:text-base font-bold text-muted-foreground min-w-7.5 text-right">
                                         {stat.opponent}
                                     </span>
                                 </div>
