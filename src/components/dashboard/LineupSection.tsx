@@ -12,10 +12,10 @@ const PlayerBadge = ({ name, number }: { name: string; number: number }) => (
         whileHover={{ scale: 1.05 }}
         className="flex flex-col items-center gap-1"
     >
-        <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-primary flex items-center justify-center border-2 border-secondary">
+        <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-primary flex items-center justify-center border-2 border-secondary shadow-lg">
             <span className="text-xs sm:text-sm font-bold text-white">{number}</span>
         </div>
-        <span className="text-[10px] sm:text-xs font-semibold text-center text-white drop-shadow-lg">
+        <span className="text-[10px] sm:text-xs font-bold text-center text-white bg-black/60 px-2 py-0.5 rounded backdrop-blur-sm">
             {name}
         </span>
     </motion.div>
